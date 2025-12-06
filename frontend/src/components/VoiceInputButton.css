@@ -1,0 +1,48 @@
+.voice-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.voice-btn:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.voice-btn.recording {
+  background-color: #dc3545;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.voice-btn.recording:hover {
+  background-color: #c82333;
+}
+
+.voice-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.voice-icon {
+  font-size: 1rem;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+
+
