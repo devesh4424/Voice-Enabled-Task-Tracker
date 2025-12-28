@@ -26,6 +26,10 @@ This application allows users to manage tasks through both manual input and voic
 - Support for relative dates ("tomorrow", "next Monday", "in 3 days")
 - Priority detection from keywords
 
+## Project Screenshot
+
+![Voice-Enabled Task Tracker](./ss.png)
+
 ## Tech Stack
 
 ### Frontend
@@ -383,5 +387,3 @@ voice-task-tracker/
 ## License
 
 ISC
-
-
